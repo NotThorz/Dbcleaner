@@ -1,5 +1,5 @@
 # Dbcleaner
-
+Create an original file and keys file , remove emojis and escape characters from original file before running this and then u can add them later using another script
 Cleaning txt files based on keywords , when the keyword is found it should be either a single word itseld or surrounded by punctuation or emojis or a combination 
 of spaces and punctution and emojis ,
 
