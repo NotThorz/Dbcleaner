@@ -2,6 +2,7 @@ import os
 import re
 import chardet
 
+#remove emojis and escape characters from the file before entering it here , using .replace() method and using emoji module 
 # Get the directory where the script is located
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
@@ -83,15 +84,8 @@ with open(os.path.join(script_dir,'filtered.txt'), 'w',encoding='utf8') as f:
         f.write(string)
 
 
-
-
-
-##############################we got it filtered now we reverse #######################################
-
-
-
-
-
-
-
 print('\nScript is done ..\ncheck filtered.txt and deleted.txt files .')
+
+
+#Now that the DB is filtered ,we reserve it and put the emojis back in the lines that still exist in the DB the program should be fairly easy .
+
